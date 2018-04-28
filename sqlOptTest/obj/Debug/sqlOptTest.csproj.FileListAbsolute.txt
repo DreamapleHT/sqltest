@@ -1,0 +1,10 @@
+E:\ProjectHM\sqlOptTest\sqlOptTest\sqlOptTest\bin\sqlOptTest.dll.config
+E:\ProjectHM\sqlOptTest\sqlOptTest\sqlOptTest\bin\sqlOptTest.dll
+E:\ProjectHM\sqlOptTest\sqlOptTest\sqlOptTest\bin\sqlOptTest.pdb
+E:\ProjectHM\sqlOptTest\sqlOptTest\sqlOptTest\bin\DataOpt.dll
+E:\ProjectHM\sqlOptTest\sqlOptTest\sqlOptTest\bin\DataOpt.pdb
+E:\ProjectHM\sqlOptTest\sqlOptTest\sqlOptTest\obj\Debug\sqlOptTest.dll
+E:\ProjectHM\sqlOptTest\sqlOptTest\sqlOptTest\obj\Debug\sqlOptTest.pdb
+E:\ProjectHM\sqlOptTest\sqlOptTest\sqlOptTest\bin\Aspose.Cells.dll
+E:\ProjectHM\sqlOptTest\sqlOptTest\sqlOptTest\bin\DbAccess.dll
+E:\ProjectHM\sqlOptTest\sqlOptTest\sqlOptTest\obj\Debug\sqlOptTest.csprojResolveAssemblyReference.cache

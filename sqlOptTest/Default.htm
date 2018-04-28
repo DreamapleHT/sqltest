@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>首页</title>
+    <link href="css/default.css" rel="stylesheet" />
+    <link href="/ui/layui/css/layui.css" rel="stylesheet" />
+    <script src="js/jquery.js"></script>
+    <!--引入CSS-->
+    <link rel="stylesheet" type="text/css" href="plug/webuploader/webuploader.css">
+
+    <!--引入JS-->
+    <script type="text/javascript" src="plug/webuploader/webuploader.js"></script>
+    <script src="js/default.js"></script>
+    <script src="js/upload.js"></script>
+</head>
+<body>
+    <h4>增加数据</h4>
+    账户名称：<input type="text" name="account" id="account" value="" />
+    <br />
+    <br />
+    电话号码：<input type="text" name="mobile" id="mobile" value="" />
+    <button type="button" onclick="addData()" class="layui-btn layui-btn-primary">增加数据</button>
+    <button type="button" onclick="addDatap()" class="layui-btn layui-btn-primary">增加数据POST</button>
+    <hr />
+    <h4>查询数据</h4>
+    电话号码：<input type="text" name="mobile" id="qrymobile" value="" />（查询条件）
+    <button type="button" onclick="getData()" class="layui-btn layui-btn-primary">查询数据</button>
+    <button type="button" onclick="getDatap()" class="layui-btn layui-btn-primary">查询数据POST</button>
+    <hr />
+    <div id="data"></div>
+    <h4>编辑数据</h4>
+    修改条件：<input type="text" name="mobile" id="edtmobile" value="" />（电话号码）
+    <br />
+    <br />
+    修改账号：<input type="text" name="edtaccount" id="edtaccount" value="" />
+
+    <button type="button" onclick="edtData()" class="layui-btn layui-btn-primary">修改数据</button>
+
+
+    <button type="button" onclick="edtDatap()" class="layui-btn layui-btn-primary">修改数据POST</button>
+    <hr />
+    <h4>删除数据</h4>
+    <button type="button" onclick="delData()" class="layui-btn layui-btn-primary">删除数据</button>
+    <button type="button" onclick="delDatap()" class="layui-btn layui-btn-primary">删除数据POST</button>
+    <hr />
+    <h4>执行存储过程</h4>
+    <button type="button" onclick="proc()" class="layui-btn layui-btn-primary">执行存储过程</button>
+    <button type="button" onclick="procp()" class="layui-btn layui-btn-primary">执行存储过程POST</button>
+
+    <h4>日志输出：</h4>
+    <textarea id="log" class="log"></textarea>
+
+
+    <input type="file" id="imData" name="name" value=" " />
+    <button type="button" onclick="expData()" class="layui-btn layui-btn-primary">导出数据</button>
+    <button type="button" onclick="imData()" class="layui-btn layui-btn-primary">导入数据</button>
+
+    <hr />
+
+    <div id="uploader" class="wu-example">
+        <!--用来存放文件信息-->
+        <div id="thelist" class="uploader-list"></div>
+        <div class="btns">
+            <div id="picker">选择文件</div>
+            <button id="ctlBtn" class="btn btn-default">开始上传</button>
+        </div>
+    </div>
+</body>
+</html>

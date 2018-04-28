@@ -1,0 +1,7 @@
+E:\ProjectHM\sqlOptTest\sqlOptTest\DataOpt\bin\Debug\DataOpt.dll
+E:\ProjectHM\sqlOptTest\sqlOptTest\DataOpt\bin\Debug\DataOpt.pdb
+E:\ProjectHM\sqlOptTest\sqlOptTest\DataOpt\obj\Debug\DataOpt.dll
+E:\ProjectHM\sqlOptTest\sqlOptTest\DataOpt\obj\Debug\DataOpt.pdb
+E:\ProjectHM\sqlOptTest\sqlOptTest\DataOpt\obj\Debug\DataOpt.csprojResolveAssemblyReference.cache
+E:\ProjectHM\sqlOptTest\sqlOptTest\DataOpt\bin\Debug\DbAccess.dll
+E:\ProjectHM\sqlOptTest\sqlOptTest\DataOpt\bin\Debug\Aspose.Cells.dll
